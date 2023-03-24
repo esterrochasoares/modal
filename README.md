@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Modal
+A modal made for npm, built using Javascript, React (components) and tailwindcss (style);
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technologies
+React : 18.2.0 version; <br/> 
+Node.js : 19.8.1 version; <br/> 
+Tailwind CSS : 3.0.2 version; <br/> 
 
-## Available Scripts
+## Getting Started
+### Dependencies
+React  <br/> 
+Tailwind CSS <br/> 
 
-In the project directory, you can run:
+### How to use
 
-### `npm start`
+ #### React
+``` npm start ```
+to start React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+####  Tailwind CSS
+```tailwind.config.js```- you will find all of the Tailwind settings, an essential file;
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ```./src/App.js``` <br/>
+In the App file the Home component is imported where all the other components of the modal are present; <br/>
 
-### `npm test`
+```
+function App() {
+  return (
+    <>
+    <Home/>
+    </>
+  );
+}
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ```./src/components/Home```
+![home](https://user-images.githubusercontent.com/112898782/227606467-92217b0f-11a6-421c-8280-4e6928df7dd9.png)
 
-### `npm run build`
+- #### In the home file you will find the functions to open and close the modal <br/>
+- #### The component of the buttons and the modal
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Home style
+ #### To facilitate the styling with tailwind all colors, fonts, and font sizes were removed, so that when it comes time to use the library it is flexible;
+ #### To add styles follow the Tailwind link and customize as you like: https://tailwindcss.com/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Home](https://user-images.githubusercontent.com/112898782/227607907-8305f65d-c8e5-4e96-afd7-0acdbdd034c8.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ```./src/components/Button```
+![button](https://user-images.githubusercontent.com/112898782/227606834-6270bba6-9803-4b17-a16b-cd038db441d8.png)
+### Button style
+#### To change the text of the button that open the modal go to ```./src/components/Home```
+#### To change the button text inside the modal go to ```./src/components/Modal```
+####
 
-### `npm run eject`
+### ```./src/components/Modal```
+![modal](https://user-images.githubusercontent.com/112898782/227607222-b3d8b8d4-d897-4109-9332-bf79b67daa5b.png)
+### Under ```./src/components/Modal``` are all the functions, styles and text from within the modal;
+![Modal](https://user-images.githubusercontent.com/112898782/227611621-e9bbcf23-3e96-4301-a8a0-b5e6464d59a1.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## This modal is completely responsive
+![HomeResponsive](https://user-images.githubusercontent.com/112898782/227614058-3b42bf1b-a0b7-4d2b-b74b-c40365c7a680.png)
+![ModalOpenResponsive](https://user-images.githubusercontent.com/112898782/227614121-5e1217a0-2d60-4563-ae84-81c3041cd7e0.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
