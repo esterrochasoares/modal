@@ -1,5 +1,5 @@
 {
-  "name": "modal",
+  "name": "modal-react-tailwind-responsive",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,5 +34,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "A modal made for npm, built using Javascript, React (components) and tailwindcss (style);",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": ["modal","responsive","tailwind-react"],
+  "author": "Ester Rocha",
+  "license": "ISC"
 }
