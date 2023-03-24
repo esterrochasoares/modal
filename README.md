@@ -1,7 +1,6 @@
-# Getting Started with Create React App
+# Modal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+A modal made for npm, built using Javascript, React (components) and tailwindcss (style);
 ## Available Scripts
 
 In the project directory, you can run:
