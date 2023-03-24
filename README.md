@@ -1,14 +1,41 @@
 # Modal
-
 A modal made for npm, built using Javascript, React (components) and tailwindcss (style);
-## Available Scripts
 
-In the project directory, you can run:
+## Technologies
+React : 18.2.0 version; <br/> 
+Node.js : 19.8.1 version; <br/> 
+Tailwind CSS : 3.0.2 version; <br/> 
 
-### `npm start`
+## Getting Started
+### Dependencies
+React  <br/> 
+Tailwind CSS <br/> 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### How to use
+
+ #### React
+``` npm start ```
+to start React
+
+####  Tailwind CSS
+```tailwind.config.js```- you will find all of the Tailwind settings, an essential file;
+
+### ```./src/App.js``` <br/>
+In the App file the Home component is imported where all the other components of the modal are present; <br/>
+
+```
+function App() {
+  return (
+    <>
+    <Home/>
+    </>
+  );
+}
+```
+
+### ```./src/components/Home```
+(https://raw.githubusercontent.com/esterrochasoares/modal_NPM/master/public/README/button.png)
+
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
