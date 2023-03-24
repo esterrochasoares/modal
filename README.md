@@ -1,5 +1,7 @@
 # Modal
 A modal made for npm, built using Javascript, React (components) and tailwindcss (style);
+## Installation
+```npm i modal_react_tailwind_responsive```
 
 ## Technologies
 React : 18.2.0 version; <br/> 
