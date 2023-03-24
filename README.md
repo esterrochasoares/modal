@@ -63,4 +63,6 @@ function App() {
 ![HomeResponsive](https://user-images.githubusercontent.com/112898782/227614058-3b42bf1b-a0b7-4d2b-b74b-c40365c7a680.png)
 ![ModalOpenResponsive](https://user-images.githubusercontent.com/112898782/227614121-5e1217a0-2d60-4563-ae84-81c3041cd7e0.png)
 
+## npm library link : https://www.npmjs.com/package/modal_react_tailwind_responsive
+
 
